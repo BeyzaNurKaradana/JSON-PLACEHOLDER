@@ -1,0 +1,179 @@
+
+
+body {
+    /* background-color: #000000;
+    color: white; */
+    background-image: url("https://wallpapers.com/images/hd/dark-theme-background-cml7xusbzkcxz371.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    color: rgb(224, 138, 138);
+  
+  }
+  
+  
+  .scene {
+    width: 700px;
+    height: 500px;
+    margin: 2% auto;
+    perspective: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+  
+    z-index: -2000;
+    overflow: hidden;
+  }
+  .wrapper-7 {
+    width: 100%;
+    height: 100%;
+    --bs-card-spacer-y: 10px;
+    --bs-card-spacer-x: 0;
+    transform-style: preserve-3d;
+  }
+  .wrapper {
+    width: 100%;
+    height: 100%;
+    --bs-card-spacer-y: 10px;
+    --bs-card-spacer-x: 0;
+    transform-style: preserve-3d;
+    
+  }
+  
+  
+  h3,
+  h2,
+  h1 {
+    font-size: 1.25rem;
+  
+    perspective: 100rem;
+    transform: translateZ(20rem);
+  }
+  p{
+      font-size: 15px;
+  
+    perspective: 100rem;
+    transform: translateZ(20rem);
+  }
+  .flex-- {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .wrapper-div {
+    height: 23rem;
+    width: 18rem;
+    transition: transform 300ms linear;
+    position: relative;
+    perspective: 100rem;
+  
+    margin-bottom: 5rem;
+    margin: 2rem;
+  }
+  .wrapper-7 {
+    height: 29rem;
+    width: 18rem;
+    transition: transform 300ms linear;
+    position: relative;
+    perspective: 100rem;
+  
+    margin-bottom: 5rem;
+    margin: 2rem;
+  }
+  .wrapper {
+    height: 20rem;
+    width: 20rem;
+    transition: transform 300ms linear;
+    position: relative;
+    perspective: 100rem;
+  
+    margin-bottom: 5rem;
+    margin: 2rem;
+  
+  }
+  
+  .ui-card {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+  
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0.7rem;
+    perspective: 100rem;
+    transform: rotateX(0deg) rotateY(0deg);
+    transfrom-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
+    backdrop-filter: blur(1rem);
+    margin-bottom: none;
+    padding: none;
+  }
+  .ui-card-2 {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+  
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0.7rem;
+    perspective: 100rem;
+    transform: rotateX(0deg) rotateY(0deg);
+    transfrom-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
+    backdrop-filter: blur(1rem);
+    margin-bottom: none;
+    padding: none;
+    display: flex;
+    justify-content: start;
+    padding: 5px;
+  }
+  
+  
+  .post-yazi {
+    padding: 1rem;
+  }
+  
+  
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  
+  
+  a{
+    color: white;
+    text-decoration: none;
+    
+  }
+  ul{
+    list-style-type: none;
+    padding-left: 10px;
+  }
+  i{
+    padding-right:10px ;
+  }
+  button{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    
+  }
+
+  .post-items{
+    justify-content: center;
+    display: flex;
+  }
